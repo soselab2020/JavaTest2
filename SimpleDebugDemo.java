@@ -31,7 +31,7 @@ public class SimpleDebugDemo {
         // BREAKPOINT HERE - Watch the values of 'i' and 'total'
         for (int i = 1; i <= 5; i++) {
             // Should add i, but mistakenly adds i*2
-            total += i * 2;  // Incorrect logic
+            total += i;  // Incorrect logic
         }
 
         System.out.println("Sum of numbers from 1 to 5: " + total);
