@@ -52,7 +52,7 @@ public class SimpleDebugDemo {
         // BREAKPOINT HERE - Watch the values of 'i' and 'result'
         for (int i = 0; i < input.length(); i++) {
             // Should be input.charAt(input.length() - 1 - i)
-            result = result + input.charAt(i);  // This builds the string forward, not backward
+            result = result + input.charAt(input.length() - 1 - i);  // This builds the string forward, not backward
         }
 
         System.out.println("Original string: " + input);
